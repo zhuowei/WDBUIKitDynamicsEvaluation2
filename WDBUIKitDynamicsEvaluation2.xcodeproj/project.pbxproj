@@ -14,6 +14,8 @@
 		C598176C28CE879700B2B2B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C598176B28CE879700B2B2B5 /* Assets.xcassets */; };
 		C598176F28CE879700B2B2B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C598176D28CE879700B2B2B5 /* LaunchScreen.storyboard */; };
 		C598177228CE879700B2B2B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C598177128CE879700B2B2B5 /* main.m */; };
+		C598177928CE883800B2B2B5 /* GoogleCalendarScreenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = C598177828CE883800B2B2B5 /* GoogleCalendarScreenshot.png */; };
+		C598177B28CE905D00B2B2B5 /* GoogleCalendarScreenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = C598177A28CE905D00B2B2B5 /* GoogleCalendarScreenshot2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		C598176E28CE879700B2B2B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C598177028CE879700B2B2B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C598177128CE879700B2B2B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C598177828CE883800B2B2B5 /* GoogleCalendarScreenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoogleCalendarScreenshot.png; sourceTree = "<group>"; };
+		C598177A28CE905D00B2B2B5 /* GoogleCalendarScreenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoogleCalendarScreenshot2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 				C598176B28CE879700B2B2B5 /* Assets.xcassets */,
 				C598176D28CE879700B2B2B5 /* LaunchScreen.storyboard */,
 				C598177028CE879700B2B2B5 /* Info.plist */,
+				C598177828CE883800B2B2B5 /* GoogleCalendarScreenshot.png */,
+				C598177A28CE905D00B2B2B5 /* GoogleCalendarScreenshot2.png */,
 				C598177128CE879700B2B2B5 /* main.m */,
 			);
 			path = WDBUIKitDynamicsEvaluation2;
@@ -133,7 +139,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C598177928CE883800B2B2B5 /* GoogleCalendarScreenshot.png in Resources */,
 				C598176F28CE879700B2B2B5 /* LaunchScreen.storyboard in Resources */,
+				C598177B28CE905D00B2B2B5 /* GoogleCalendarScreenshot2.png in Resources */,
 				C598176C28CE879700B2B2B5 /* Assets.xcassets in Resources */,
 				C598176A28CE879400B2B2B5 /* Main.storyboard in Resources */,
 			);
@@ -300,6 +308,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,8 +316,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.worthdoingbadly.WDBUIKitDynamicsEvaluation2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Debug;
 		};
@@ -327,6 +337,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,8 +345,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.worthdoingbadly.WDBUIKitDynamicsEvaluation2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Release;
 		};
